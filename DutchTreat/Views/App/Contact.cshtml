@@ -1,0 +1,32 @@
+﻿@model ContactModels
+@{ 
+    ViewBag.Title = "Contact Us";
+}
+<div asp-validation-summary="All" class="col-md-6 offset-md-3">
+    <div class="card-group">
+        <form method="post">
+            <label asp-for="Name">User Name:</label>
+            <br />
+            <input type="text" name="name" asp-for="Name" />
+            <br />
+            <br />
+            <label asp-for="Password">Password</label>
+            <br />
+            <input type="password" name="password" asp-for="Password" />
+            <br />
+            <br />
+            <label asp-for="Email">Email</label>
+            <br />
+            <input type="email" name="email" asp-for="Email" />
+            <br />
+            <br />
+            <label asp-for="Message">Message</label>
+            <br />
+            <textarea rows="4" name="message" asp-for="Message"></textarea>
+            <br />
+            <br />
+            <input type="submit" id="button" />
+            <div>@ViewBag.UserMessage</div>
+        </form>
+    </div>
+</div>

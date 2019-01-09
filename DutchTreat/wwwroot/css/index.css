@@ -1,0 +1,44 @@
+﻿/*#info{
+    border: 2px solid black;
+    display: block;
+    padding: 5px;
+    background-color: gray;
+}
+#info p{
+    font-size: 20px;
+}
+#info img{
+    width:400px;
+    height: 475px;
+    margin: 5px;
+}
+/*form {
+    background-color: red;
+    border: 2px solid black;
+    padding: 4px;
+    width: 200px;
+    display:block;
+}*/
+/*form textarea{
+    width:220px;
+}
+#form{
+    display:inline-block;
+}
+li {
+    display:inline;
+}
+menu li::after{
+    content: ' |';
+}
+menu li:last-of-type::after{
+    content: "";
+}*/
+
+header{
+    background-color:gray;
+}
+
+
+
+
